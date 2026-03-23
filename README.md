@@ -30,7 +30,7 @@ pip install opencv-python huggingface-hub==0.21.0 pytorch_lightning loralib fair
 ## 📦 Model Weights
 
 为了能够顺利运行推理代码，请下载我们预训练好的模型权重，并将其放置在相应的目录下。
- | [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2-base) |
+ | [Hugging Face](https://huggingface.co/xuyang2003/VTTac) |
 
 
 **放置指引：**
