@@ -73,6 +73,6 @@ python vttac_inference.py \
 ## 📁 5. 输出目录结构
 
 生成的触觉图片将根据所选的 `--datasets` 参数保存在不同的目录中：
-* **TacQuad 数据集 (`--datasets tac`)**: 保存至 `/output_tac/output/
-* **SSVTP 数据集 (`--datasets ssvtp`)**: 保存至 `/output_ssvtp/output/
-* **HCT 数据集 (`--datasets hct`)**: 保存至 `/output_hct/output/
+* **TacQuad 数据集 (`--datasets tac`)**: 保存至 /output_tac/output/
+* **SSVTP 数据集 (`--datasets ssvtp`)**: 保存至 /output_ssvtp/output/
+* **HCT 数据集 (`--datasets hct`)**: 保存至 /output_hct/output/
