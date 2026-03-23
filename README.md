@@ -26,7 +26,15 @@ pip install opencv-python huggingface-hub==0.21.0 pytorch_lightning loralib fair
 1.  **Stable Diffusion V2 Base**: 需要通过 `--pretrained_model_path` 指定，例如 `/SD-2-base`。
 2.  **CLIP 视觉编码器**: 默认从 `/clip_encoder/clip_vit_L_14` 加载（`CLIP_ViT-L/14`），用于提取参考图像的视觉特征。
 3.  **VTTac Checkpoint**: 我们微调后的模型权重路径，需要通过 `--model_path` 指定，例如 `/output/checkpoint-10000`。
+   
+## 📦 Model Weights
 
+为了能够顺利运行推理代码，请下载我们预训练好的模型权重，并将其放置在相应的目录下。
+ | [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2-base) |
+
+
+**放置指引：**
+下载 `VTTac Model Weights` 后，请将其解压并放置在工程根目录的 `/output` 文件夹中（或通过 `--model_path` 参数指定您存放的路径）。
 ## 🚀 3. 运行推理
 
 推理脚本 `vttac_inference.py` 内部已经配置了默认参数。您可以直接运行脚本，或者通过命令行参数覆盖默认配置。
